@@ -5,7 +5,7 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * i Return: the largest number
+ * Return: the largest number
  */
 
 int largest_number(int a, int b, int c)
@@ -28,6 +28,5 @@ int largest_number(int a, int b, int c)
 	{
 		largest = b;
 	}
-
 	return (largest);
 }
